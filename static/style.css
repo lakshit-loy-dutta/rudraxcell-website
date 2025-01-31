@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Poppins;
+}
+
+nav {
+	height: 12vh;
+	width: 100%;
+	position: absolute;
+	display: flex;
+	top: 0%;
+	background-color: #262626;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #1d6adb;
+	width: 100%;
+}
+
+li {
+	list-style-type: none;
+	color: white;
+}
+
+#nav-logo {
+	width: 180px;
+	margin-top: 4px;
+}
+
+.container {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/58/Maa_Kamakhya_temple.jpg");
+	background-repeat: no-repeat;
+}
+
+.hero {
+	margin-top: 15vh;
+	margin-inline: auto;
+	text-align: center;
+	height: 120vh;
+	max-width: 80%;
+}
+.hero p {
+	margin-top: 10px;
+}
+
+.active-btn,
+.inactive-btn {
+	cursor: pointer;
+}
+
+.active-btn {
+	background-color: #33ccff;
+	padding: 4px 12px;
+	border-radius: 25px;
+}
+
+.inactive-btn {
+	border-color: #33ccff;
+	border-style: solid;
+	padding: 4px 12px;
+	border-radius: 25px;
+}
+
+.inactive-btn:hover {
+	border-color: white;
+}
