@@ -5,47 +5,20 @@
 	font-family: Poppins;
 }
 
-nav {
-	height: 12vh;
-	width: 100%;
-	position: absolute;
-	display: flex;
-	top: 0%;
-	background-color: #262626;
-}
-
-.navbar {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	background-color: #1d6adb;
-	width: 100%;
-}
-
-li {
-	list-style-type: none;
-	color: white;
-}
-
-#nav-logo {
-	width: 180px;
-	margin-top: 4px;
-}
-
-.container {
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/58/Maa_Kamakhya_temple.jpg");
-	background-repeat: no-repeat;
-}
-
-.hero {
+.main-container {
 	margin-top: 15vh;
-	margin-inline: auto;
 	text-align: center;
-	height: 120vh;
-	max-width: 80%;
 }
-.hero p {
-	margin-top: 10px;
+
+#hero {
+	aspect-ratio: 4/3;
+	max-width: 1000px;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-evenly;
+	background-image: url("./images/Kamakhya-o2.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 .active-btn,
@@ -68,4 +41,9 @@ li {
 
 .inactive-btn:hover {
 	border-color: white;
+}
+
+img {
+	width: 300px;
+	margin: 0 auto;
 }
