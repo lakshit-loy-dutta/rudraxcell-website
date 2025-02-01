@@ -11,7 +11,7 @@
 
 .navbar-brand img {
 	width: 150px;
-	margin: 10px 100px;
+	margin-block: 5px;
 }
 
 .main-container {
