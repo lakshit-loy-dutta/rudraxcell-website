@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Poppins;
+	font-family: "Poppins", sans-serif;
 }
 
 .main-container {
@@ -16,7 +16,7 @@
 	align-items: center;
 	flex-direction: column;
 	justify-content: space-evenly;
-	background-image: url("./images/Kamakhya-o2.jpg");
+	background-image: url("./images/Kamakhya-o3.jpg");
 	background-repeat: no-repeat;
 	background-size: contain;
 }
