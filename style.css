@@ -5,6 +5,10 @@
 	font-family: "Poppins", sans-serif;
 }
 
+body {
+	min-height: 100%;
+}
+
 .navbar-brand {
 	display: contents;
 }
@@ -56,9 +60,14 @@ img {
 	margin: 0 auto;
 }
 
+.card {
+	width: 300px;
+	margin: 20px auto;
+}
+
 .card-text {
 	padding-right: 10px;
-	max-height: 250px;
+	max-height: 200px;
 	overflow-y: auto;
 	font-size: small;
 }
@@ -78,4 +87,11 @@ img {
 
 .card-text::-webkit-scrollbar-thumb:hover {
 	background: #555;
+}
+
+footer {
+	clear: both;
+	position: relative;
+	bottom: 0;
+	margin-top: auto;
 }
